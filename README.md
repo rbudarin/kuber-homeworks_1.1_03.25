@@ -26,12 +26,10 @@
     - изменить права на папку с конфигурацией `sudo chown -f -R $USER ~/.kube`.
 
 2. Полезные команды:
-    - проверить статус `microk8s status --wait-ready`;
-       
+    - проверить статус `microk8s status --wait-ready`;       
     ![kuber01.01.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.01.png)
     - подключиться к microK8s и получить информацию можно через команду `microk8s command`, например, `microk8s kubectl get nodes`;    
-    ![kuber01.02.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.02.png)
-    
+    ![kuber01.02.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.02.png)    
     - включить addon можно через команду `microk8s enable`; 
     - список addon `microk8s status`;
     ![kuber01.03.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.03.png)
@@ -46,8 +44,7 @@
     # IP.4 = 123.45.67.89
     ```
     - обновить сертификаты `sudo microk8s refresh-certs --cert front-proxy-client.crt`.
-    ![kuber01.04.png]([https://github.com/rbudarin/devops_netology/blob/main/05-virt-03-docker/screen2.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.04.png)
-
+    ![kuber01.04.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.04.png)
 4. Установка kubectl:
     - curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl;
     - chmod +x ./kubectl;
@@ -78,8 +75,8 @@
 2. Настроить локально подключение к кластеру.
 3. Подключиться к дашборду с помощью port-forward.
 ------
-![kuber01.05.png]([https://github.com/rbudarin/devops_netology/blob/main/05-virt-03-docker/screen2.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.05.png)
-![kuber01.06.png]([https://github.com/rbudarin/devops_netology/blob/main/05-virt-03-docker/screen2.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.06.png)
+![kuber01.05.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.05.png)
+![kuber01.06.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.06.png)
 
 ### Правила приёма работы
 

@@ -26,9 +26,9 @@
     - изменить права на папку с конфигурацией `sudo chown -f -R $USER ~/.kube`.
 
 2. Полезные команды:
-    - проверить статус `microk8s status --wait-ready`;    
-    ![kuber01.01.png]([https://github.com/rbudarin/devops_netology/blob/main/05-virt-03-docker/screen2.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.01.png)
-    
+    - проверить статус `microk8s status --wait-ready`;
+       
+    ![kuber01.01.png]([https://github.com/rbudarin/devops_netology/blob/main/05-virt-03-docker/screen2.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.01.png)    
     - подключиться к microK8s и получить информацию можно через команду `microk8s command`, например, `microk8s kubectl get nodes`;    
     ![kuber01.02.png]([https://github.com/rbudarin/devops_netology/blob/main/05-virt-03-docker/screen2.png](https://github.com/rbudarin/kuber-homeworks_1.1_03.25/blob/main/screen/kuber01.02.png)
     
